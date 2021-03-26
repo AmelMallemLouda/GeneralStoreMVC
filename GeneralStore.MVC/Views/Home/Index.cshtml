@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Products</h2>
+<div class="jumbotron">
+    @Html.ActionLink("Learn More About Us", "About")
+   
+
+</div>
+
+<div class="row">
+    <div class="col-md-10">
+        
+        <p>
+            Our General Store, located in rural Indiana, is host to a multitude of fine food and items of distinction.<br />
+            Come browse our products and see what we have for you.
+        </p>
+        @Html.ActionLink("Check Products", "Index", "Product", null, new { @class = "btn btn-primary btn-large" })
+    </div>
+    
+</div>
